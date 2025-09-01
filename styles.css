@@ -1,0 +1,66 @@
+body{
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+/* @font-face {
+  font-family: PatrickHand ;
+  src: url(assets/fonts/PatrickHand-Regular.ttf);
+} */
+
+@font-face {
+  font-family: PTSerif ;
+  src: url(assets/fonts/PTSerif-Regular.ttf);
+}
+
+@font-face {
+  font-family:Roboto ;
+  src: url(assets/fonts/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+
+h1, h2, h3,h4{
+  margin: 30px 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: PTSerif;
+}
+
+h4{
+  text-transform: capitalize;
+}
+nav{
+  box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.5);
+}
+
+.navbar .container-fluid ul li a{
+  color: #fff;
+}
+
+.carousel,
+.carousel .carousel-inner,
+.carousel .carousel-inner .carousel-item{
+    height: 400px ;
+    width: 400px;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  /* object-position: center; */
+  object-position: top;
+  height: 100%;
+  width: 100%;
+}
+
+.container .row .col-8 .scrollspy-example .clearfix .img-fluid {
+  max-height: 300px;
+  border-radius: 3px;
+}
+
+.container .row .col-4{
+  max-height: 300px;
+  border-radius: 3px;
+  position: sticky;
+  top: 10px;
+}

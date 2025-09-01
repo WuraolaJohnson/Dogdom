@@ -53,6 +53,11 @@ nav{
   width: 100%;
 }
 
+#info{
+  height: max-content;
+  position: relative;
+}
+
 .container .row .col-8 .scrollspy-example .clearfix .img-fluid {
   max-height: 300px;
   border-radius: 3px;
@@ -64,3 +69,4 @@ nav{
   position: sticky;
   top: 10px;
 }
+

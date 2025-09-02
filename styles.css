@@ -41,18 +41,27 @@ nav{
 .carousel,
 .carousel .carousel-inner,
 .carousel .carousel-inner .carousel-item{
+    height: 450px ;
+    max-width: 100%;
+}
+/* .carousel,
+.carousel .carousel-inner,
+.carousel .carousel-inner .carousel-item{
     height: 400px ;
     width: 400px;
-}
+} */
 
 .carousel-item img {
   object-fit: cover;
-  /* object-position: center; */
-  object-position: top;
+  object-position: center;
+  /* object-position:  left top; */
   height: 100%;
   width: 100%;
 }
 
+.c2 img{
+  object-position: top center;
+}
 #info{
   height: max-content;
   position: relative;
@@ -70,3 +79,8 @@ nav{
   top: 10px;
 }
 
+@media (max-width:1000px) {
+    h1{
+      font-size: 25px;
+    }
+}
